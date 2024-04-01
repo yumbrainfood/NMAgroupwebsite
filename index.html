@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Title Here</title>
+    <title>Omnilogue | Instances of Reflection</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="cursor.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -20,14 +21,19 @@
       rel="stylesheet"
     />
     <!-- END Google Fonts snippet -->
+    <script type="module" src="scripts/cursor.js"></script>
   </head>
 
   <body>
+    <!-- Cursor circles -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
     <!-- Top Navigation Menu -->
     <nav class="topnav" id="top">
-      <a href="#home" class="exhibition-logo active"
-        ><h1>Exhibition Title</h1></a
-      >
+      <a href="#home" class="exhibition-logo active">
+        <h1>Omnilogue</h1>
+      </a>
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
       <a class="icon" id="hamburger">
         <i class="fa fa-bars"></i>
@@ -36,7 +42,7 @@
       <div id="navLinks">
         <div class="nav-links">
           <!-- Add links to all sections on homepage by copying the span below and editing the text to the name of the section and href to the id of the section -->
-          <span><a href="#section">Section Link</a></span>
+          <span><a href="#section">Instances</a></span>
           <span
             ><a href="https://newmediartspace.info" target="_blank"
               >New Media Artspace</a
@@ -49,6 +55,8 @@
       <!-- You can either put your exhibition key image in the background of .curatorial-left in main.css and delete the .key-image-hero div,
         or remove the background-image on .curatorial-left and place the key image in the hero. -->
       <div class="key-image-hero">
+        <h1>Omnilogue</h1>
+        <h2>Instances of Reflection</h2>
         <a href="#curatorial-statement">View exhibition<br />&darr;</a>
       </div>
       <div class="column-text" id="curatorial-statement">
@@ -100,7 +108,7 @@
         Give each project-link-container a unique id and put the project's key image as a background image in main.css. -->
         <!-- START section 1 snippet -->
         <section class="project-section" id="section">
-          <h1>Section Title</h1>
+          <h1>Instances</h1>
           <div class="project-section-inner-wrapper">
             <div class="project-section-inner">
               <a href="project.html" class="project-link-container">

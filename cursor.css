@@ -1,0 +1,30 @@
+/* Gets rid of the mouse cursor*/
+* {
+    cursor:none; 
+}
+
+.cursor-dot {
+    width:0px;
+    height:0px;
+    background-color: white;
+
+}
+
+.cursor-outline {
+    width: 0px;
+    height: 0px;
+    border: 15px solid hsla(0, 0%, 100%, 1);
+    
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 999;
+    pointer-events: none;
+    mix-blend-mode: difference;
+}
