@@ -208,7 +208,7 @@ nav {
   background: radial-gradient(ellipse at top, #d07681, #c697c4, #a4c172, 
   #bcc98d, #5e92d5,#1bad81, #77904c, #c3a8eb, #f4e4b5, #96bef1);
 	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
+	animation: gradient 60s ease infinite;
 	height: 100vh;
 
   display: flex;
