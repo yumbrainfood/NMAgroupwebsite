@@ -205,10 +205,27 @@ nav {
   width: 100vw;
   height: 95vh;
   
+  background: radial-gradient(ellipse at top, #d07681, #c697c4, #a4c172, 
+  #bcc98d, #5e92d5,#1bad81, #77904c, #c3a8eb, #f4e4b5, #96bef1);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
 }
 .key-image-hero a {
   position: absolute;
