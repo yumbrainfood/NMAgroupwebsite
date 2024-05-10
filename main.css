@@ -27,7 +27,7 @@ src: url('../fonts/SyneTactile-Regular.ttf') format('truetype');
    ========================================================================== */
 :root {
   --main-bg-color: white;
-  --secondary-bg-color: #cbcbcb;
+  --secondary-bg-color: #f4e4b5;
   --accent-color: #000000;
   --main-text-color: #222;
   --secondary-text-color: #353535;
@@ -203,13 +203,13 @@ nav {
 
 .key-image-hero {
   width: 100vw;
-  height: 95vh;
+
   
   background: radial-gradient(ellipse at top, #d07681, #c697c4, #a4c172, 
   #bcc98d, #5e92d5,#1bad81, #77904c, #c3a8eb, #f4e4b5, #96bef1);
 	background-size: 400% 400%;
 	animation: gradient 60s ease infinite;
-	height: 100vh;
+
 
   display: flex;
   flex-direction: column;
@@ -228,12 +228,14 @@ nav {
 	}
 }
 .key-image-hero a {
-  position: absolute;
-  bottom: 3em;
+
   width: 100vw;
   text-align: center;
+  margin-bottom: 10px;
 }
-
+.key-image-hero img {
+  max-width: 1200px;
+}
 .column-text {
   display: flex;
   align-items: flex-start;
@@ -297,7 +299,8 @@ nav {
   
 }
 .project-link-container:nth-child(even) {
-  background: #aeaeae;
+  background: hsl(0, 0%, 100%);
+  ;
 }
 
 
